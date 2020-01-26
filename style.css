@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+}
+.d-none {
+    display: none;
+}
+
+/* ========  Predefinições  ======== */
+header {
+    width: 100%;
+    float: left;
+}
+#mensagem-t {
+    width: 100%;
+    background-image: url(img/frete-gratis.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    background-color: #24282b;
+    float: left;
+}
+
+#pesquisa {
+    padding: 12px;
+    background-color: #fd0;
+    float: left;
+    width: 100%;
+}
+
+#pesquisa .img-logo {
+    float: left;
+}
+#pesquisa .img-logo img {
+    margin-top: 5px;
+    width: 175px;
+}
+#pesquisa .barra-pesquisa {
+    float: left;
+    width: 48%;
+    position: relative;
+    margin-left: 20px;
+}
+
+#pesquisa .barra-pesquisa #txt-pesquisa 
+{
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#pesquisa .barra-pesquisa img{
+    position: absolute;
+    right: 8px;
+    top: 20%;
+    width: 22px;
+}
+#pesquisa .cadastro {
+    float: left;
+    margin-left: 125px;
+    width: 10%;
+}
+#pesquisa .cadastro img {
+    margin-top: 5px;
+    width: 25px;
+    float: left;
+}
+#pesquisa .cadastro h1 a {
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 4px 0 0 10px;
+    width: 60%;
+    font-size: 12px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+#pesquisa #favoritos {
+    float: left;
+    width: 10%;
+    position: relative;
+    margin-top: 5px;
+}
+#pesquisa #favoritos img{
+    width: 25px;
+    right: 0;
+    position: absolute;
+}
+
+#pesquisa #carrinho{ 
+    float: left;
+    width: 15%;
+    position: relative;
+}
+#pesquisa #carrinho img{
+    width: 25px;
+    right: 0;
+    position: absolute;
+}
+
+#menu {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #efefef;
+}
+#menu #menu-drop {
+    width: 18.5%;
+    float: left;
+}
+  
+#menu #menu-drop a{
+    text-decoration: none;
+    float: left;
+    background-color: #efefef;
+    width: 100%;
+}
+#menu #menu-drop .icon-menu {
+    width: 30px;
+    height: 26px;
+    float: left;
+    margin: 14px 0 0 10px;
+    
+}
+#menu #menu-drop .linha-icon {
+    float: left;
+    width: 26px;
+    height: 1.5px;
+    background-color: #14171c;
+    margin-top: 4px;
+}
+#menu #menu-drop .linhas-icon{
+    float: left;
+    width: 26px;
+    height: 0.8px;
+    background-color:  #14171c;
+    margin-top: 7px;
+}
+#menu #menu-drop a p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #efefef;
+    color: #24282b;
+    float: left;
+    margin-top: 5px;
+}
+
+#menu #menu-drop:hover div{
+    display: block;
+    
+}
+#menu #menu-drop img {
+    width: 18px;
+    margin: 25px 0 0 20px;
+}
+#menu #menu-select{
+    width: 81.5%;
+    float: left;
+}
+#menu #menu-select ul .select1{
+    width: 60%;
+    float: left;
+}
+#menu #menu-select .select1 li{
+    float: left; 
+}
+#menu #menu-select .select1 li a{
+    float: left;
+    display: block;
+    font-size: 9px;
+    font-family:sans-serif ;
+    padding: 19.5px 0 19.5px 19.5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#menu #menu-select .select1 li a:hover {
+    text-decoration: underline;
+}
+#menu #menu-select ul .select2 {
+    width: 60%;
+    float: left;
+}
+#menu #menu-select .select2 li{
+    float: right;
+
+}
+
+#menu #menu-select .select2 li a{
+    float: left;
+    display: block;
+    font-size: 10px;
+    font-family:sans-serif;
+    color: #24282b;
+    text-decoration: none;
+    padding: 19.5px 14px 14px 0;
+}
+
+#menu #menu-select .select2 li a:hover {
+    text-decoration: underline;
+}
+#menu #menu-select li .bullet::after{
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: #d5d5d5;
+    vertical-align: middle;
+    border-radius: 50%;
+    content: "";
+}

@@ -10,32 +10,30 @@
         <!-- Topo -->
         <header> 
             <!-- Imagem com texto --> 
-            <div id="mensagem-t"> </div>
+            <div id="mensagem-t">
+               
+            </div>
             <!-- // Imagem com texto --> 
 
             <!-- Logo / Barra de pesquisa -->
             <div id="pesquisa">
                 <div class="img-logo" >
-                    <img src="logopng" alt="Logo Saraiva"> <!-- Logo -->
+                   <a href=""> <img src="img/logo.png" alt="Logo Saraiva"> </a><!-- Logo -->
                 </div>
                 <div id="menu-pesquisa">
                     <div class="barra-pesquisa">
-                        <form>
                             <input id="txt-pesquisa" type="text" placeholder="O que você procura?">
-                        </form>
-                        <div class="btn-search">
-                        <img src="searchpng" id="btnPesquisa" alt="Pesquisar">
-                        </div>
+                            <img src="img/search.png" alt="">
                     </div>
                     <div class="cadastro">
-                        <img src="avatarpng" alt="Login Icon">
-                        <h1><a>  Entre ou<br> cadastre-se</a></h1>
+                        <a href="#"><img src="img/avatar.png" alt="Login Icon"></a>
+                        <h1><a href="#">  Entre ou<br> cadastre-se</a></h1>
                     </div>
-                    <div id="wishlist">
-                        <img src="heartpng" alt="Icone Wishlist">
+                    <div id="favoritos">
+                       <a href="#"> <img src="img/heart.png" alt="Icone Wishlist"></a>
                     </div>
                     <div id="carrinho">
-                        <img src="carrinhopng" alt="Carrinho de compras">
+                        <a href="#"><img src="img/carrinho.png" alt="Carrinho de compras"></a>
                     </div>
                 </div>
             </div>
@@ -44,46 +42,102 @@
              <!-- Menu --> 
             <div id="menu">
                 <div id="menu-drop">
-                   <span>DEPARTAMENTOS</span>
+                    <a href="#">
+                        <span class="icon-menu">
+                            <span class="linha-icon"></span>
+                            <span class="linhas-icon"></span>
+                            <span class="linhas-icon"></span>
+                        </span>
+                        <p>DEPARTAMENTOS</p>
+                        <img src="img/seta.png" alt="Icon Seta, Departamentos">
+                    </a>
                    <!-- livros -->
-                   <div class="livros">
+                   <dipv class="livros d-none">
                        <span>Livros</span>
                        <div class="livros-drop">
                             <a href="#">Link1</a>
                        </div>
-                   </div>
+                   </dipv>
                    <!-- // livros -->
 
                    <!-- livros em Ingles e outros idiomas -->
-                   <div class="livros-igles">
-                    <span>Livros em Ingles e outros idiomas</span>
-                    <div class="livros-ingles-drop">
-                         <a href="#">Link1</a>
+                   <div class="livros-igles d-none">
+                        <span>Livros em Ingles e outros idiomas</span>
+                        <div class="livros-ingles-drop">
+                            <a href="#">Link1</a>
+                        </div>
                     </div>
-                </div>
                 <!-- // livros em Ingles e outros idiomas -->
                 </div>
+
                 <div id="menu-select">
-                    <ul>
-                        <li><a href="#"></a>OUTLET</li>
-                        <li><a href="#"></a>PROMOÇÕES</li>
-                        <li><a href="#"></a>CUPOM DE DESCONTO</li>
-                        <li><a href="#"></a>VOLTA ÀS AULAS</li>
+                    <ul class="select1">
+                        <li><a href="#">OUTLET</a></li>
+                        <li><a href="#">PROMOÇÕES</a></li>
+                        <li><a href="#">CUPOM DE DESCONTO</a></li>
+                        <li><a href="#">VOLTA ÀS AULAS</a></li>
                         <li><a href="#">GIFT CARDS</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Retire na Loja</a></li>
-                        <li><a href="#">Saraiva Plus</a></li>
-                        <li><a href="#">Cartão Saraiva</a></li>
+                    </ul >
+                    <ul  class="select2">
+                        <li><a href="#" >Cartão Saraiva</a></li>
+                        <li><a href="#" class="bullet">Saraiva Plus</a></li>
+                        <li><a href="#" class="bullet">Retire na Loja</a></li>
                     </ul>
                 </div>
             </div>
              <!-- // Menu --> 
         </header>
         <!-- Topo -->
-        <!-- Carrossel -->
 
-        <!-- // Carrossel -->
+        <!-- Carrossel 
+            <div class="carrossel">
+                <div class="slide slide-1" id="slide1">
+                    <a href="#slide-9">Voltar</a>
+                    <img src="slide1" alt="Imagem 1 Slide Carrossel">
+                    <a href="#slide-2">Avançar</a>
+                </div>
+                <div class="slide slide-2" id="slide2">
+                    <a href="#slide-1">Voltar</a>
+                    <img src="slide1" alt="Imagem 2 Slide Carrossel">
+                    <a href="#slide-3">Avançar</a>
+                </div>
+                <div class="slide slide-3" id="slide3">
+                    <a href="#slide-2">Voltar</a>
+                    <img src="slide1" alt="Imagem 3 Slide Carrossel">
+                    <a href="#slide-4">Avançar</a>
+                </div>
+                <div class="slide slide-4" id="slide4">
+                    <a href="#slide-3">Voltar</a>
+                    <img src="slide1" alt="Imagem 4 Slide Carrossel">
+                    <a href="#slide-5">Avançar</a>
+                </div>
+                <div class="slide slide-5" id="slide5">
+                    <a href="#slide-4">Voltar</a>
+                    <img src="slide1" alt="Imagem 5 Slide Carrossel">
+                    <a href="#slide-6">Avançar</a>
+                </div>
+                <div class="slide slide-6" id="slide6">
+                    <a href="#slide-5">Voltar</a>
+                    <img src="slide1" alt="Imagem 6 Slide Carrossel">
+                    <a href="#slide-7">Avançar</a>
+                </div>
+                <div class="slide slide-7" id="slide7">
+                    <a href="#slide-6">Voltar</a>
+                    <img src="slide1" alt="Imagem 7 Slide Carrossel">
+                    <a href="#slide-8">Avançar</a>
+                </div>
+                <div class="slide slide-8" id="slide8">
+                    <a href="#slide-7">Voltar</a>
+                    <img src="slide1" alt="Imagem 8 Slide Carrossel">
+                    <a href="#slide-9">Avançar</a>
+                </div>
+                <div class="slide slide-9" id="slide9">
+                    <a href="#slide-8">Voltar</a>
+                    <img src="slide1" alt="Imagem 9 Slide Carrossel">
+                    <a href="#slide-1">Avançar</a>
+                </div>
+            </div>
+        // Carrossel -->
 
         <!-- anuncio -->
         <div class="anuncio">
@@ -113,6 +167,133 @@
             </form>
         </div>
         <!-- // Encontre sua lista de material escolar -->
+
+        <!-- Mais Populares -->
+           
+        <!-- // Mais Populares -->
+        <!-- Temas especiais -->
+            <div>
+                <img src="#" alt="Temas Especiais 1">
+                <img src="#" alt="Temas Especiais 2">
+                <img src="#" alt="Temas Especiais 3">
+                <img src="#" alt="Temas Especiais 4">
+                <img src="#" alt="Temas Especiais 5">
+                <img src="#" alt="Temas Especiais 6">
+            </div>
+        <!-- // Temas especiais -->
+
+        <!-- anuncio -->
+        <div class="anuncio">
+            <img src="anuncio.png" alt="">
+        </div>
+        <!-- // anuncio -->
+
+        <!-- Baixaram de Preço -->
+
+        <!-- // Baixaram de Preço -->
+        
+        <!-- anuncio -->
+        <div class="anuncio">
+            <img src="anuncio.png" alt="">
+        </div>
+        <!-- // anuncio -->
+
+        <!--- Destaques -->
+        <!--- // Destaques -->
+        <!-- Frete Grátis -->
+            <div class="frete">
+                <img src="caminhao" alt="FRETE GRÁTIS EM TODO O SITE
+                Veja as condições para cada categoria.">
+            </div>
+            <div class="s-plus">
+                <img src="saraiva-plus" alt="Saraiva Plus
+                A cada 500 pontos você ganha R$10,00 para
+                utilizar como quiser na Saraiva">
+            </div>
+        <!-- // Frete Grátis -->
+        <footer> 
+
+
+            <div class="meios-de-Pagamento">
+                <p>Meios de Pagamento</p>
+                <img src="meios-de-pagamento" alt="Meios de pagamentos">
+            </div> 
+
+            <div class="Site Seguro">
+                <p>Site Seguro</p>
+                <img src="site-seguro" alt="Site Seguro">
+            </div> 
+
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <img src="redes-socieais" alt="Redes Sociais">
+            </div> 
+
+            <div class="bloco-footer">
+                <img src="central" alt="Central de Atendimento">
+                <p>Utilize nosso FAQ, chat online ou email para solucionar suas dúvidas.</p>
+                <div>
+                    <h1>Central de Atendimento</h1>
+
+                    <p>Grande São Paulo</p>
+                    <h2>(XX) XXXX-XXXX</h2>
+
+                    <p>Rio de Janeiro</p>
+                    <h2>XXXX-XXX-XXXX</h2>
+
+                    <p>Demais regiões*</p>
+                    <h2>XXXX-XXXX</h2>
+                    <p>Horário de atendimento das 8h às 20h, de segunda a sexta (exceto feriados)</p>
+                </div>
+            </div>
+
+            <div class="bloco-footer">
+                <img src="lojas" alt="Nossas lojas">
+                <p>Encontre uma loja Saraiva mais perto de você.</p>
+                <div>
+                    <h1>Tele vendas </h1>
+
+                    <p>Todas as regiões</p>
+                    <h2>XXXX-XXXX</h2>
+                    <p>Vendas Corporativas</p>
+                    <h2>(XX) XXXX-XXXX</h2>
+
+                    <p>*Não é necessário DDD. Custo de ligação local, mais imposto local, conforme estado de origem.</p>
+                </div>
+            </div>
+
+            <div class="bloco-footer">
+                <img src="cartao-saraiva" alt="Cartão Saraiva">
+                <p>Condições Especiais para suas compras em nossas lojas e site.</p>
+                <div>
+                    <h1>Serviços</h1>
+                    <a href="#">Garantia Estendida</a>
+                    <a href="#">Proteção Saraiva</a> 
+                    <a href="#">Programa de Afiliados</a>
+                    <a href="#">Venda na Saraiva</a>
+                    <a href="#">Retire na Loja</a>  
+                </div>
+            </div>
+
+            <div class="bloco-footer">
+                <img src="trabalhe-conosco" alt="Trabalhe Conosco">
+                <p>Condições Especiais para suas compras em nossas lojas e site.</p>
+                <div>
+                    <h1>Institucional</h1>
+                    <a href="#">Política de Venda e Troca</a>      
+                    <a href="#">Relações com Investidores</a>  
+                    <a href="#">Eventos</a>  
+                    <a href="#">Termos e Condições de Compra</a>             
+                </div>
+            </div>
+
+            <div class="txt-footer">
+                <p>As ofertas são válidas por tempo determinado e/ou enquanto durarem os estoques. Nosso serviço de entregas não permite encomendas feitas com endereçamento de Caixa Postal.
+                    Os preços apresentados no site não são obrigatoriamente iguais aos apresentados na rede de lojas físicas da Saraiva, e somente são válidos para as compras efetuadas no ato de sua exibição.
+                    Saraiva.com.br é uma empresa do grupo Saraiva e Siciliano S.A., CNPJ nº 61.365.284/0001-04, Rua Henrique Schaumann, nº 270, São Paulo – SP.
+                </p>
+            </div>
+        </footer>
     </body>
  </html>
  
