@@ -13,81 +13,372 @@
             <div id="mensagem-t">
                
             </div>
-            <!-- // Imagem com texto --> 
-
-            <!-- Logo / Barra de pesquisa -->
-            <div id="pesquisa">
-                <div class="img-logo" >
-                   <a href=""> <img src="img/logo.png" alt="Logo Saraiva"> </a><!-- Logo -->
-                </div>
-                <div id="menu-pesquisa">
-                    <div class="barra-pesquisa">
-                            <input id="txt-pesquisa" type="text" placeholder="O que você procura?">
-                            <img src="img/search.png" alt="">
+            <!-- // Imagem com texto -->
+             <!-- Header-Fixado -->  
+            <div class="header-fixado">
+                <!-- Logo / Barra de pesquisa -->
+                <div id="pesquisa">
+                    <div class="img-logo" >
+                    <a href=""> <img src="img/logo.png" alt="Logo Saraiva"> </a><!-- Logo -->
                     </div>
-                    <div class="cadastro">
-                        <a href="#"><img src="img/avatar.png" alt="Login Icon"></a>
-                        <h1><a href="#">  Entre ou<br> cadastre-se</a></h1>
-                    </div>
-                    <div id="favoritos">
-                       <a href="#"> <img src="img/heart.png" alt="Icone Wishlist"></a>
-                    </div>
-                    <div id="carrinho">
-                        <a href="#"><img src="img/carrinho.png" alt="Carrinho de compras"></a>
-                    </div>
-                </div>
-            </div>
-             <!-- // Logo / Barra de pesquisa -->
-
-             <!-- Menu --> 
-            <div id="menu">
-                <div id="menu-drop">
-                    <a href="#">
-                        <span class="icon-menu">
-                            <span class="linha-icon"></span>
-                            <span class="linhas-icon"></span>
-                            <span class="linhas-icon"></span>
-                        </span>
-                        <p>DEPARTAMENTOS</p>
-                        <img src="img/seta.png" alt="Icon Seta, Departamentos">
-                    </a>
-                   <!-- livros -->
-                   <dipv class="livros d-none">
-                       <span>Livros</span>
-                       <div class="livros-drop">
-                            <a href="#">Link1</a>
-                       </div>
-                   </dipv>
-                   <!-- // livros -->
-
-                   <!-- livros em Ingles e outros idiomas -->
-                   <div class="livros-igles d-none">
-                        <span>Livros em Ingles e outros idiomas</span>
-                        <div class="livros-ingles-drop">
-                            <a href="#">Link1</a>
+                    <div id="menu-pesquisa">
+                        <div class="barra-pesquisa">
+                                <input id="txt-pesquisa" type="text" placeholder="O que você procura?">
+                                <img src="img/search.png" alt="">
+                        </div>
+                        <div class="cadastro">
+                            <a href="#"><img src="img/avatar.png" alt="Login Icon"></a>
+                            <h1><a href="#">  Entre ou<br> cadastre-se</a></h1>
+                        </div>
+                        <div id="favoritos">
+                        <a href="#"> <img src="img/heart.png" alt="Icone Wishlist"></a>
+                        </div>
+                        <div id="carrinho">
+                            <a href="#"><img src="img/carrinho.png" alt="Carrinho de compras"></a>
                         </div>
                     </div>
-                <!-- // livros em Ingles e outros idiomas -->
                 </div>
+                <!-- // Logo / Barra de pesquisa -->
 
-                <div id="menu-select">
-                    <ul class="select1">
-                        <li><a href="#">OUTLET</a></li>
-                        <li><a href="#">PROMOÇÕES</a></li>
-                        <li><a href="#">CUPOM DE DESCONTO</a></li>
-                        <li><a href="#">VOLTA ÀS AULAS</a></li>
-                        <li><a href="#">GIFT CARDS</a></li>
-                    </ul >
-                    <ul  class="select2">
-                        <li><a href="#" >Cartão Saraiva</a></li>
-                        <li><a href="#" class="bullet">Saraiva Plus</a></li>
-                        <li><a href="#" class="bullet">Retire na Loja</a></li>
-                    </ul>
+                <!-- Menu --> 
+                <div id="menu">
+                     <!-- Menu Drop --> 
+                    <div id="menu-drop">
+                        <a href="#" id="dep">
+                            <span class="icon-menu">
+                                <span class="linha-icon"></span>
+                                <span class="linhas-icon"></span>
+                                <span class="linhas-icon"></span>
+                            </span>
+                            <p>DEPARTAMENTOS</p>
+                            <img src="img/seta.png" alt="Icon Seta, Departamentos">
+                        </a>
+                    <!-- Menus Segundarios -->
+                        <ul class="menus-segundarios">
+                            <!-- Livros -->
+                            <li >
+                                <p>Livros</p>
+                                <div class="sub-menu">
+                                    <span class="sub-title"><h1>Tudo em Livros</h1></span>
+                                        <ul>
+                                            
+                                            <li><a href="#"><p>MAIS VENDIDOS</p></a></li>
+                                            <li><a href="#"><p>PRÉ-VENDA</p></a></li>
+                                            <li><a href="#"><p>LANÇAMENTOS</p></a></li>
+                                            <li><a href="#"><p>E-BOOKS</p></a></li>
+                                            <li><a href="#"><p>OUTLET DE LIVROS</p></a></li>
+                                            <li><a href="#"><p>LOJA DE DIREITO</p></a></li>
+                                            <li><a href="#"><p>LOJA DE MEDICINA</p></a></li>
+                                            <li><a href="#"><p>BECO DIAGONAL</p></a></li>
+                                        </ul>
+                                    <ul>
+                                        <li><a href="#"><p>LIVROS EM PORTUGUÊS</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Estrangeira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Infantojuvenil</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Brasileira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Didáticos</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">HQs</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Administração</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Autoajuda</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p >Autores</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Stephen King</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Augusto Cury</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">JK Rowling</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Pedro Lenza</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p >LISTAS</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Os Mais Vendidos da Veja</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Bons e Baratos</p></a></li>
+                                        <li><a href="#"><p>BLOG</p></a></li>
+                                    </ul>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                        <img src="img/anuncio-menu.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- // Livros -->
+
+                            <!-- Livros em Inglês -->
+                            <li>
+                                <p>Livros em Inglês e Outros Idiomas</p>
+                                
+                                <div class="sub-menu">
+                                    <span class="sub-title"><h1>Tudo de Livros Inglês e Outros Idiomas</h1></span>
+                                    <ul>
+                                        <li><a href="#"><p>PRÉ-VENDAS</p></a></li>
+                                        <li><a href="#"><p>LANÇAMENTOS</p></a></li>
+                                        <li><a href="#"><p>HARRY POTTER EM INGLÊS</p></a></li>
+                                        <li><a href="#"><p>O GAME OF THRONES EM INGLÊS</p></a></li>
+                                        <li><a href="#"><p>DICIONÁRIOS</p></a></li>
+                                        <li><a href="#"><p>ESOTERISMO</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p class="txtLighter">Literatura Estrangeira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Brasileira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Infantojuvenil</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">HQs e Mangás em Inglês</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Linguínstica</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Religião</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p>Cursos e idiomas</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Tudo de Idiomas</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Alemão</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Espanhol</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Francês</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Inglês</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p>Universitários e profissionais</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Administração</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Artes</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Direito</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Medicina</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Psicologia e Psicanálise</p></a></li>
+                                    </ul>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                        <img src="img/anuncio-menu.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- // Livros em Inglês -->
+
+                            <!-- E-books -->
+                                <li>
+                                    <p>E-Books</p>
+                                
+                                <div class="sub-menu">
+                                    <span class="sub-title"><h1>Tudo de E-books</h1></span>
+                                    <ul>
+                                        <li><a href="#"><p>Mais Vendidos</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p>E-books em portugês</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Direito</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Estrangeira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Medicina</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Religião</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Cursos e Idiomas</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Contabilidade</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Infantojuvenil</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Esporte e Lazer</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Economia</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Engenharia e Tecnologia</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Geografia e Historia</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p>E-BOOKS EM INGLÊS E OUTROS IDIOMAS</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Diretio</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Estrangeira</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Medicina</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Religião</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Cursos de Idiomas</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Contabilidade</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Literatura Infantojuvenil</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Esporte e Lazer</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Economia</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Engenharia e Tecnologia</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Geografia e Historia</p></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><p>LEV</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Capas</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Biblioteca</p></a></li>
+                                        <li><a href="#"><p>AUDIOLIVRO</p></a></li>
+                                        <li><a href="#"><p class="txtLighter">Publique-se</p></a></li>
+                                    </ul>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                        <img src="img/anuncio-menu.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="anuncio-menu">
+                                        <a href="#">
+                                            <img src="img/anuncio-menu3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                </li>
+                            <!-- // E-books -->
+                             
+                            <!-- Games -->
+                                <li>
+                                    <p>Games</p>
+                                
+                                    <div class="sub-menu">
+                                        <span class="sub-title"><h1>Tudo de Games</h1></span>
+                                        <ul>
+                                            <li><a href="#"><p>Lançamentos</p></a></li>
+                                            <li><a href="#"><p>Pré-venda</p></a></li>
+                                            <li><a href="#"><p>Mais Vendidos</p></a></li>
+                                            <li><a href="#"><p>Outlet</p></a></li>
+                                            <li><a href="#"><p>blog</p></a></li>
+                                            <li><a href="#"><p>Gift Cards</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p >Playstation</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Console PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Acessórios PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PS3</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p>XBOX</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Console Xbox One</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos Xbox One</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos Xbox 360</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p>PC</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PC</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Linha Gamer</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Notebook Gamer</p></a></li>
+                                            <li><a href="#"><p>Colecionáveis</p></a></li>
+                                        </ul>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                            <img src="img/anuncio-menu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                                <img src="img/anuncio-menu2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                                <img src="img/anuncio-menu3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- // Games -->
+
+                                <!-- Filmes -->
+                                <li>
+                                    <p>Filmes</p>
+                                    <div class="sub-menu">
+                                        <span class="sub-title"><h1>Tudo de Games</h1></span>
+                                        <ul>
+                                            <li><a href="#"><p>Lançamentos</p></a></li>
+                                            <li><a href="#"><p>Pré-venda</p></a></li>
+                                            <li><a href="#"><p>Mais Vendidos</p></a></li>
+                                            <li><a href="#"><p>Outlet</p></a></li>
+                                            <li><a href="#"><p>blog</p></a></li>
+                                            <li><a href="#"><p>Gift Cards</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p >Playstation</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Console PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Acessórios PS4</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PS3</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p>XBOX</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Console Xbox One</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos Xbox One</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos Xbox 360</p></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#"><p>PC</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Jogos PC</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Linha Gamer</p></a></li>
+                                            <li><a href="#"><p class="txtLighter">Notebook Gamer</p></a></li>
+                                            <li><a href="#"><p>Colecionáveis</p></a></li>
+                                        </ul>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                            <img src="img/anuncio-menu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                                <img src="img/anuncio-menu2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="anuncio-menu">
+                                            <a href="#">
+                                                <img src="img/anuncio-menu3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Filmes -->
+                                <li>
+                                    <p>Músicas</p>
+                                </li>
+                                <li>
+                                    <p>Papelaria</p>
+                                </li>
+                                <li>
+                                    <p>Celulares e Smartphones</p>
+                                </li>
+                                <li>
+                                    <p>Informática</p>
+                                </li>
+                                <li>
+                                    <p>Brinquedos</p>
+                                </li>
+                                <li>
+                                    <p>Ver Todos</p>
+                                </li>
+                        </ul>
+                        <!-- Menus Segundarios -->
+                        </div>
+     
+                    <div id="menu-select">
+                        <ul class="select1">
+                            <li><a href="#">OUTLET</a></li>
+                            <li><a href="#">PROMOÇÕES</a></li>
+                            <li><a href="#">CUPOM DE DESCONTO</a></li>
+                            <li><a href="#">VOLTA ÀS AULAS</a></li>
+                            <li><a href="#">GIFT CARDS</a></li>
+                        </ul >
+                        <ul  class="select2">
+                            <li><a href="#" >Cartão Saraiva</a></li>
+                            <li><a href="#" class="bullet">Saraiva Plus</a></li>
+                            <li><a href="#" class="bullet">Retire na Loja</a></li>
+                        </ul>
+                    </div>
                 </div>
+                <!-- // Menu --> 
             </div>
-             <!-- // Menu --> 
+            <!-- // Header-Fixado --> 
         </header>
-        <!-- Topo -->
+        <!-- // Topo -->
 
         <!-- Carrossel 
             <div class="carrossel">
@@ -141,11 +432,16 @@
 
         <!-- anuncio -->
         <div class="anuncio">
-            <img src="anuncio.png" alt="">
+            <a href="#"><img src="img/anuncio.png" alt=""></a>
         </div>
         <!-- // anuncio -->
         <!-- Encontre sua lista de material escolar -->
         <div id="lista-de-material">
+            <div class="form-title">
+                <img src="img/prancheta.png" alt="">
+                <h1>Encontre sua lista de material escolar</h1>
+                <p>Busque por sua escola:</p>
+            </div>
             <form>
                 <select name="UF" id="uf">
                     <option value="uf">UF</option>
@@ -182,21 +478,17 @@
             </div>
         <!-- // Temas especiais -->
 
-        <!-- anuncio -->
-        <div class="anuncio">
-            <img src="anuncio.png" alt="">
-        </div>
-        <!-- // anuncio -->
+       <!-- anuncio -->
+       <div class="anuncio">
+        <a href="#"><img src="img/anuncio.png" alt=""></a>
+    </div>
+    <!-- // anuncio -->
 
         <!-- Baixaram de Preço -->
 
         <!-- // Baixaram de Preço -->
         
-        <!-- anuncio -->
-        <div class="anuncio">
-            <img src="anuncio.png" alt="">
-        </div>
-        <!-- // anuncio -->
+        
 
         <!--- Destaques -->
         <!--- // Destaques -->
