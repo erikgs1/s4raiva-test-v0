@@ -195,6 +195,7 @@ header {
     left: 100%;
     top: 0;
     background-color: #efefef;
+    /*display: none;*/
 }
 #menu #menu-drop ul li .sub-menu ul{
     top: 0;
