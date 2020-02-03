@@ -340,6 +340,8 @@ header {
 .anuncio img {
     width: 100%;
     float: left;
+    margin: 50px 0;
+    background-color: #efefef;
 }
 /* ===== // Anuncio ========= */
 
@@ -397,8 +399,8 @@ header {
 }
 .temas a {
     float: left;
-    width: 16%;
-    margin-left: 7.5px;
+    width: 15.8%;
+    margin-left: 10px;
 }
 .temas a img{
     float: left;
