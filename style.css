@@ -387,3 +387,48 @@ header {
     border-radius: 5px;
 }
 /* ======== // Formulário ========= */
+
+/* ======== Temas especiais  ========= */
+.temas {
+    width: 100%;
+    float: left;
+    background-color:#efefef;
+    margin: 50px 0 50px 0;
+}
+.temas a {
+    float: left;
+    width: 16%;
+    margin-left: 7.5px;
+}
+.temas a img{
+    float: left;
+    width: 100%;
+}
+.temas .tema-title {
+    float: left;
+    width: 100%;
+    margin: 50px 0 50px 10px;
+}
+.temas .tema-title h1{
+    float: left;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #24282b;
+    width: 85%;
+}
+.temas .tema-title a{
+    float: right;
+    width: 11%;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.temas .tema-title a p{
+    padding: 12px 0;
+    background-color: gold;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #24282b;
+    border-radius: 5px;
+}
+/* ======== // Temas especiais  ========= */
