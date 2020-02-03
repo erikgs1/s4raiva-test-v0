@@ -434,3 +434,40 @@ header {
     border-radius: 5px;
 }
 /* ======== // Temas especiais  ========= */
+
+/* ======== Lista de Beneficios  ========= */
+.beneficios {
+    width: 100%;
+    background-color: #efefef;
+    float: left;
+}
+.beneficios .frete{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #24282b;
+}
+.beneficios .frete img{
+    width: 64px;
+    float: left;
+}
+.beneficios .frete h2{
+    font-size: 14px;
+}
+.beneficios .frete p {
+    font-size: 12px;
+}
+.beneficios .s-plus{
+    width: 50%;
+    float: right;
+}
+.beneficios .s-plus img{
+    width: 64px;
+    float: left;
+}
+.beneficios .s-plus h2{
+    font-size: 14px;
+}
+.beneficios .s-plus p {
+    font-size: 12px;
+}
+/* ======== // Lista de Beneficios  ========= */
