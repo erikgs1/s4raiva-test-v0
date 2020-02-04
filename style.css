@@ -440,34 +440,69 @@ header {
     width: 100%;
     background-color: #efefef;
     float: left;
+    padding: 30px 0 20px 0;
 }
 .beneficios .frete{
     width: 50%;
     float: left;
-    border-right: 1px solid #24282b;
+    padding: 5px 0;
 }
-.beneficios .frete img{
-    width: 64px;
+.beneficios .frete .b-elementos{
+    float: right;
+    width: 55%
+}
+.beneficios .frete .b-elementos img{
+    width: 56px;
     float: left;
 }
-.beneficios .frete h2{
-    font-size: 14px;
+.beneficios .frete .b-elementos h2{
+    font-size: 13px;
 }
-.beneficios .frete p {
-    font-size: 12px;
+.beneficios .frete .b-elementos p {
+    font-size: 11px;
 }
 .beneficios .s-plus{
     width: 50%;
     float: right;
+    padding: 5px 0;
+    border-left: 1px solid #d5d5d5;
 }
-.beneficios .s-plus img{
-    width: 64px;
+.beneficios .s-plus .b-elementos2{
+    float: right;
+    width: 95%;
+}
+.beneficios .s-plus .b-elementos2 img{
+    width: 56px;
     float: left;
 }
-.beneficios .s-plus h2{
-    font-size: 14px;
+.beneficios .s-plus .b-elementos2 h2{
+    font-size: 13px;
 }
-.beneficios .s-plus p {
-    font-size: 12px;
+.beneficios .s-plus .b-elementos2 p {
+    font-size: 11px;
 }
 /* ======== // Lista de Beneficios  ========= */
+/* ======== Footer  ========= */
+footer {
+    width: 100%;
+    float: left;
+}
+footer .meios-de-Pagamento{
+    float: left;
+    width: 30%;
+}
+footer .meios-de-Pagamento p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+}
+footer .site-seguro{
+    float: left;
+    width: 30%;
+}
+footer .redes-sociais{
+    float: left;
+    width: 30%;
+}
+/* ======== // Footer  ========= */
