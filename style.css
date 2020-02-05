@@ -390,6 +390,32 @@ header {
 }
 /* ======== // Formulário ========= */
 
+/* ======== Mais Populares ========= */
+.m-pupular {
+    float: left;
+    width: 100%;
+    background-color: #d5d5d5;
+}
+.m-pupular h1 {
+    font-weight: lighter;
+    font-size: 16px;
+    color:#24282b;
+}
+.card {
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+}
+.card span{
+    width: 100%;
+    background-color: #ccc;
+}
+.card span p{
+    text-align: center;
+}
+
+/* ======== // Mais Populares ========= */
+
 /* ======== Temas especiais  ========= */
 .temas {
     width: 100%;
@@ -617,7 +643,12 @@ footer .redes-sociais img{
     color: #24282b;
 }
 .txt-footer {
+    width: 100%;
+    padding: 70px 0;
     float: left;
+    text-align: center;
+    font-size: 9px;
+    color: #24282b;
 }
 
 /* ======== // Footer  ========= */
