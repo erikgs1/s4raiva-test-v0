@@ -408,7 +408,7 @@ header {
 }
 .temas .tema-title {
     float: left;
-    width: 100%;
+    width: 99%;
     margin: 50px 0 50px 10px;
 }
 .temas .tema-title h1{
@@ -546,19 +546,34 @@ footer .redes-sociais img{
     float: left;
     width: 25%;
     min-height: 300px;
+
+}
+.bloco-footer .box-radius {
+    border-radius: 5px;
+    background-color: #efefef;
+    padding-bottom: 20px;
+    margin:0 0 0 20px ;
+}
+.bloco-footer .box-radius:hover{
     background-color: #ccc;
 }
-.bloco-footer .col {
-    border-radius: 10px;
-}
 .bloco-footer .col img{
-    width: 64px;
+    width: 55px;
+    margin: 5% 0 1% 40%;
+}
+.bloco-footer .col h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #24282b;
 }
 .bloco-footer .col p{
-    font-size: 12px;
-    color: #24282b];
-    padding-top: 10px;
+    font-size: 13px;
+    color: #7b7b7b;
+    padding: 0 60px;
+    text-align: center;
 }
+
 .bloco-footer .bloco-txt{
     padding: 25px;
 }
@@ -566,10 +581,27 @@ footer .redes-sociais img{
     font-size: 20px;
     color: #24282b;
     font-weight: lighter;
+    text-align: justify;
+}
+.bloco-footer .bloco-txt p{
+    font-size: 12px;
+    color: #7b7b7b;
+    padding: 10px 0 5px 0;
+    text-align: justify;
+
 }
 .bloco-footer .bloco-txt h2{
     font-size: 14px;
     color: #24282b;
     font-weight: lighter;
 }
+.bloco-footer .col .bloco-txt span p{
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 30px 25px 0 0;
+    text-align: justify;
+    color: #24282b;
+}
+
+
 /* ======== // Footer  ========= */
