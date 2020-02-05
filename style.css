@@ -394,12 +394,15 @@ header {
 .m-pupular {
     float: left;
     width: 100%;
-    background-color: #d5d5d5;
+    background-color: #efefef;
+    
 }
 .m-pupular h1 {
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 22px;
     color:#24282b;
+    padding: 10px 0 50px 10px;
+    font-weight: lighter;
 }
 .card {
     width: 20%;
@@ -424,6 +427,42 @@ header {
 .card .img-card img{
     display: block;
     margin: 0 auto;
+}
+.card .txtCard {
+    width: 100%;
+    float: left;
+}
+.card .txtCard h1{
+    font-size: 14px;
+    padding: 20px;
+    color: #292d30;
+}
+.card .txtCard img{
+    display: block;
+    margin: 0 auto;
+}
+.card .preco-card{
+    width: 100%;
+    float: left;
+}
+.card .preco-card span{
+    margin-left: 5%;
+    width: 75%;
+}
+.card .preco-card p{
+    display: block;
+    border: 1px solid #24282b;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #24282b
+}
+.card .preco-card p:hover{
+    background-color: #fd0;
+    border: 1px solid #fd0;
+    cursor: pointer;
+    transition: all .3s;
 }
 /* ======== // Mais Populares ========= */
 
