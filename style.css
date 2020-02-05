@@ -408,12 +408,23 @@ header {
 }
 .card span{
     width: 100%;
-    background-color: #ccc;
+    float: left;
 }
 .card span p{
+    font-size: 12px;
+    font-weight: bold;
     text-align: center;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #8fb8fc;
+    background-color: rgba(143, 184, 252, 0.1);
+    padding: 5px;
 }
-
+.card .img-card img{
+    display: block;
+    margin: 0 auto;
+}
 /* ======== // Mais Populares ========= */
 
 /* ======== Temas especiais  ========= */
