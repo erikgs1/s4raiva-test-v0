@@ -553,9 +553,11 @@ footer .redes-sociais img{
     background-color: #efefef;
     padding-bottom: 20px;
     margin:0 0 0 20px ;
+    min-height: 160px;
 }
 .bloco-footer .box-radius:hover{
     background-color: #ccc;
+    cursor: pointer;
 }
 .bloco-footer .col img{
     width: 55px;
@@ -595,6 +597,18 @@ footer .redes-sociais img{
     color: #24282b;
     font-weight: lighter;
 }
+.bloco-footer .bloco-txt a{
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 12px;
+    padding: 10px 0 5px 0;
+
+}
+.bloco-footer .bloco-txt a:hover {
+    text-decoration: underline;
+}
 .bloco-footer .col .bloco-txt span p{
     font-size: 10px;
     font-weight: lighter;
@@ -602,6 +616,8 @@ footer .redes-sociais img{
     text-align: justify;
     color: #24282b;
 }
-
+.txt-footer {
+    float: left;
+}
 
 /* ======== // Footer  ========= */
