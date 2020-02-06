@@ -1,0 +1,50 @@
+@media (max-width: 1024px){
+header #mensagem-t {
+    background-image: none;
+    background-color: #3E3E3E;
+    
+}
+header #mensagem-t img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+.header-fix #pesquisa .menu-responsivo .icon-menu{
+    display: block;
+    float: left;
+}
+.header-fix #pesquisa .img-logo{
+    width: 90%;
+}
+.header-fix #pesquisa .img-logo img{
+    width:60%;
+}
+.header-fix #pesquisa .barra-pesquisa{
+    width: 100%;
+    margin: 0;
+}
+#pesquisa .barra-pesquisa #txt-pesquisa{
+    height: auto
+}
+.header-fix #pesquisa .cadastro{
+    display: none;
+}
+.header-fix #pesquisa  #favoritos{
+    position: absolute;
+    right: 120px;
+}
+.header-fix #pesquisa #favoritos img{
+    width: 70%;
+}
+.header-fix #pesquisa #carrinho{
+    position: absolute;
+    margin-top: 5px;
+    right: 30px;
+}
+.header-fix #pesquisa #carrinho img{
+    width: 50%;
+}
+#menu {
+    display: none;
+}
+}
