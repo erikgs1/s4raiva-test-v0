@@ -2,10 +2,11 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Saraiva</title>
         <link rel="shortcut icon" href="img/fav-icon.png">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="responsivo.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="responsivo.css">
                 
     </head>
     <body>
@@ -23,7 +24,9 @@
                 <div id="pesquisa">
                     <!--- Menu responsivo -->
                     <div class="menu-responsivo">
-                   
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                     <!--- // Menu responsivo -->
                     <div class="img-logo" >
@@ -695,7 +698,10 @@
             <div class="carrossel">
                 <div class="slide slide-1" id="slide1">
                     <a href="#slide-9">Voltar</a>
-                    <img src="img/slide-1.png" alt="Imagem 1 Slide Carrossel">
+                    <picture>
+                        <source srcset="img/slide-1-resp.png" media="(max-width: 1024px)">
+                        <img srcset="img/slide1.png" alt="My default image">
+                    </picture>
                     <a href="#slide-2">Avançar</a>
                 </div>
                 <!-- Carrossel 
@@ -745,7 +751,12 @@
 
         <!-- anuncio -->
         <div class="anuncio">
-            <a href="#"><img src="img/anuncio.png" alt=""></a>
+            <a href="#">
+                <picture>
+                <source srcset="img/anuncio-resp.png" media="(max-width: 1024px)">
+                        <img srcset="img/anuncio.png" alt="My default image">
+                </picture>
+            </a>
         </div>
         <!-- // anuncio -->
         <!-- Encontre sua lista de material escolar -->
