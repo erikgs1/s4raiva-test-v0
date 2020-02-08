@@ -9,7 +9,7 @@ header #mensagem-t img{
         margin: 0 auto;
         width: 100%;
     }
-.header-fix #pesquisa .menu-responsivo .icon-menu{
+.header-fix #pesquisa .menu-responsivo{
     display: block;
     float: left;
 }
@@ -24,7 +24,7 @@ header #mensagem-t img{
     margin: 0;
 }
 #pesquisa .barra-pesquisa #txt-pesquisa{
-    height: auto
+    height: auto;
 }
 .header-fix #pesquisa .cadastro{
     display: none;
@@ -46,5 +46,84 @@ header #mensagem-t img{
 }
 #menu {
     display: none;
+}
+#lista-de-material .form-title{
+    width: 100%;
+    height: 130px;
+}
+#lista-de-material .form-title img {
+    width: 5%;
+    margin: 5% 5% 0 0;
+}
+#lista-de-material .form-title h1{
+    width:50%;
+    font-size: 55px;
+    float: left;
+}
+#lista-de-material form p{
+    width: 100%;
+    font-size: 20px;
+}
+#lista-de-material form select{
+    width: 100% !important;
+}
+#lista-de-material form button{
+    display: block;
+    margin: 0 auto;
+}
+.beneficios .frete{
+    width: 100%;
+    text-align: center;
+}
+.beneficios .frete .b-elementos{
+    width: 100%;
+    
+}
+.beneficios .frete .b-elementos img{
+    float: none;
+}
+
+.beneficios .obj-center{
+    display:block;
+    margin: 0 auto;
+}
+
+.beneficios .s-plus{
+    width: 100%;
+    text-align: center;
+}
+.beneficios .s-plus .b-elementos2 img{
+    float: none;
+}
+.beneficios .s-plus .b-elementos2{
+    width: 100%;
+}
+
+footer .meios-de-Pagamento{
+    width: 100%;
+    float: none;
+}
+footer .site-seguro{
+    width: 100%;
+    float: none;
+}
+footer .redes-sociais{
+    width: 100%;
+    float: none;
+}
+footer .redes-sociais .redes-logo{
+    width: 100%;
+    float: left;
+}
+footer .redes-sociais a{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    float: left;
+}
+footer .redes-sociais img{
+    margin: 0 auto;
+    display: block;
+    float: none;
 }
 }

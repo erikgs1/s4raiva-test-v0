@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
 }
+
 /* ========  Predefinições  ======== */
 
 /* ======== Topo ========= */
@@ -369,7 +370,7 @@ header {
     color: #000;
     font-weight: 400;
 }
-#lista-de-material .form-title p {
+#lista-de-material p {
     margin: 20PX 0 20px 0;
     font-size: 12px;
 }
@@ -540,7 +541,7 @@ header {
     float: left;
 }
 .beneficios .frete .b-elementos h2{
-    font-size: 13px;
+    font-size: 10px;
 }
 .beneficios .frete .b-elementos p {
     font-size: 11px;
