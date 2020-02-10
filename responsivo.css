@@ -7,11 +7,20 @@ header #mensagem-t {
 .card-resp {
     display: none;
 }
+
 .card {
     width: 50%;
 }
 .card img{
     max-width: 100%;
+}
+.temas-resp {
+    display: none;
+
+}
+.temas a {
+    width: 45%;
+    margin-left: 12px;
 }
 header #mensagem-t img{
         display: block;
@@ -145,22 +154,40 @@ header #mensagem-t img{
 footer .meios-de-Pagamento{
     width: 100%;
     float: none;
+    padding: 0;
 }
 footer .site-seguro{
     width: 100%;
-    float: none;
+    float: left;
+    padding: 20px 0 0 0;
+}
+footer .site-seguro p{
+    padding: 0 0 10px 0;
+}
+footer .site-seguro div{
+   padding: 0 15%;
+}
+footer .site-seguro div img{
+    margin-bottom: 5px;
 }
 footer .redes-sociais{
     width: 100%;
-    float: none;
+    float: left;
+    padding: 0 0 10%;
+    min-height: auto;
+}
+footer .redes-sociais p{
+    padding: 0;
 }
 footer .redes-sociais .redes-logo{
     width: 100%;
     float: left;
+    padding: 0 0 0 16%;
+    margin-top: 10%;
 }
 footer .redes-sociais a{
     display: block;
-    width: 20%;
+    width: 15%;
     margin: 0 auto;
     float: left;
 }
