@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Saraiva</title>
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
         <link rel="shortcut icon" href="img/fav-icon.png">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="responsivo.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsivo.css">
                 
     </head>
     <body>
@@ -695,8 +697,30 @@
         <!-- // Topo -->
 
         <!-- Carrossel -->
-            <div class="carrossel">
-                <div class="slide slide-1" id="slide1">
+        
+            <div class="carrossel" style="width:100%">
+            
+                <div class="owl-carousel">
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                    <div > 
+                        <img src="img/slide-1.png" alt="">   
+                    </div>
+                </div>
+                <!-- Carrossel  <div class="slide slide-1" id="slide1">
                     <a href="#slide-9">Voltar</a>
                     <picture>
                         <source srcset="img/slide-1-resp.png" media="(max-width: 1024px)">
@@ -704,7 +728,7 @@
                     </picture>
                     <a href="#slide-2">Avançar</a>
                 </div>
-                <!-- Carrossel 
+                
                 <div class="slide slide-2" id="slide2">
                     <a href="#slide-1">Voltar</a>
                     <img src="slide1" alt="Imagem 2 Slide Carrossel">
@@ -1042,6 +1066,21 @@
                 </p>
             </div>
         </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    items:1,
+                    loop:true,
+                    margin:10,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+            });
+          </script>
     </body>
  </html>
  
