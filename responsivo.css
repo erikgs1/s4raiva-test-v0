@@ -4,6 +4,15 @@ header #mensagem-t {
     background-color: #3E3E3E;
     
 }
+.card-resp {
+    display: none;
+}
+.card {
+    width: 50%;
+}
+.card img{
+    max-width: 100%;
+}
 header #mensagem-t img{
         display: block;
         margin: 0 auto;
@@ -120,7 +129,19 @@ header #mensagem-t img{
 .beneficios .s-plus .b-elementos2{
     width: 100%;
 }
+.temas .tema-title h1{
+    font-size: 20px;
+    width: 100%;
+}
+.temas .tema-title a{
+    margin: 10px 0;
+    float: left;
+    width: 37.5%;
 
+}
+.temas .tema-title a p{
+    padding: 15px 0;
+}
 footer .meios-de-Pagamento{
     width: 100%;
     float: none;
