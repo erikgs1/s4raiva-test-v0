@@ -173,7 +173,7 @@ footer .site-seguro div img{
 footer .redes-sociais{
     width: 100%;
     float: left;
-    padding: 0 0 10%;
+    padding: 0 0 10px;
     min-height: auto;
 }
 footer .redes-sociais p{
