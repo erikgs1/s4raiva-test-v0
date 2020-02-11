@@ -131,6 +131,7 @@ header {
     width: 18.5%;
     float: left;
     position: relative;
+    z-index: 2;
 }
 #menu #menu-drop:hover ul li{
     display: block;
@@ -348,7 +349,7 @@ header {
 .anuncio img {
     width: 100%;
     float: left;
-    margin: 50px 0;
+    padding: 50px 0;
     background-color: #efefef;
 }
 /* ===== // Anuncio ========= */
@@ -358,6 +359,7 @@ header {
     float: left;
     width: calc(100% - 5%);
     margin: 0 0 0 5%;
+    padding-top: 10px;
 }
 
 #lista-de-material .form-title img {
@@ -412,6 +414,7 @@ header {
     padding: 10px 0 50px 10px;
     font-weight: lighter;
 }
+
 .card {
     width: 20%;
     float: left;
@@ -472,6 +475,9 @@ header {
     border: 1px solid #fd0;
     cursor: pointer;
     transition: all .3s;
+}
+.card-resp {
+    display: none;
 }
 /* ======== // Mais Populares ========= */
 
