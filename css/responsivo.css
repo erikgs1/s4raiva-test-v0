@@ -5,7 +5,7 @@ header #mensagem-t {
     
 }
 .card-resp {
-    display: none;
+    display: block;
 }
 
 .card {

@@ -481,6 +481,30 @@ header {
 }
 /* ======== // Mais Populares ========= */
 
+/* ======== Departamentos ========= */
+.departamentos{
+    width: 100%;
+    float: left;
+    background-color: #efefef;
+    padding-top: 1%;
+}
+.departamentos .dep-title{
+    width: 100%;
+    float: left;
+}
+.departamentos .dep-title h1{
+    font-size: 22px;
+    color: #24282b;
+    padding: 10px 0 50px 10px;
+    font-weight: lighter;
+}
+.departamentos .dep-bloco{
+    width: 15%;
+    float: left;
+    margin-left: 10px;
+}
+/* ======== // Departamentos ========= */
+
 /* ======== Temas especiais  ========= */
 .temas {
     width: 100%;
